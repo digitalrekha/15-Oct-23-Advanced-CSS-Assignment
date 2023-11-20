@@ -1,0 +1,12 @@
+Q1: Explain the purpose of using the var() function in css. 
+Ans: The var() function in CSS is used to insert the value of a custom property into any CSS property value. This allows us to reuse values throughout our CSS code, making it more maintainable and easier to update.
+
+Benefits of using CSS variables:
+
+Maintainability: By centralizing our design values in custom properties, we can easily change them throughout our code without having to search and replace them manually.
+
+Reusability: Custom properties allow us to reuse the same values across different elements and selectors, promoting consistency and reducing code duplication.
+
+Dynamic styling: We can update custom properties using JavaScript, enabling dynamic styling based on user interactions or other factors.
+
+Theming: Custom properties are ideal for implementing themes, allowing us to switch between different color schemes or styles with minimal effort.

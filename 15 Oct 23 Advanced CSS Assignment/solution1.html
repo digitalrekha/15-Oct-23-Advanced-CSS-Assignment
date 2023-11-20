@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 1</title>
+    <!-- Create two buttons with id named primaryBtn and secondaryBtn which should be given background colors using the var() function. The color code for primaryColor is #00b7ff and secondaryColor is #6c757d. -->
+
+    <Style>
+        :root {
+            --primarycolor: #00b7ff;
+            --secondarycolor: #6c757d;
+        }
+
+        #primaryBtn {
+            background-color: var(--primarycolor);
+            color: white;
+            border: 1px solid var(--primarycolor);
+        }
+
+        #secondaryBtn {
+            background-color: var(--secondarycolor);
+            color: white;
+            border: 1px solid var(--secondarycolor);
+        }
+    </Style>
+
+</head>
+
+<body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+</body>
+
+</html>
